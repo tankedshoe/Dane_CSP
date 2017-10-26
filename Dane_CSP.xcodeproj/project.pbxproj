@@ -12,6 +12,13 @@
 		778ED97E1FA21FD400D799BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778ED97C1FA21FD400D799BE /* Main.storyboard */; };
 		778ED9801FA21FD400D799BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778ED97F1FA21FD400D799BE /* Assets.xcassets */; };
 		778ED9831FA21FD400D799BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778ED9811FA21FD400D799BE /* LaunchScreen.storyboard */; };
+		778ED98F1FA2235B00D799BE /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED98E1FA2235B00D799BE /* CreativityViewController.swift */; };
+		778ED9911FA2236B00D799BE /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9901FA2236B00D799BE /* AbstractionViewController.swift */; };
+		778ED9931FA2237800D799BE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9921FA2237800D799BE /* DataViewController.swift */; };
+		778ED9951FA2238600D799BE /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9941FA2238600D799BE /* AlgorithmsViewController.swift */; };
+		778ED9991FA223BB00D799BE /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9981FA223BB00D799BE /* ProgrammingViewController.swift */; };
+		778ED99B1FA223CE00D799BE /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED99A1FA223CE00D799BE /* InternetViewController.swift */; };
+		778ED99D1FA223DB00D799BE /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED99C1FA223DB00D799BE /* ImpactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		778ED97F1FA21FD400D799BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		778ED9821FA21FD400D799BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		778ED9841FA21FD400D799BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778ED98E1FA2235B00D799BE /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
+		778ED9901FA2236B00D799BE /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		778ED9921FA2237800D799BE /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		778ED9941FA2238600D799BE /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
+		778ED9981FA223BB00D799BE /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		778ED99A1FA223CE00D799BE /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		778ED99C1FA223DB00D799BE /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,13 @@
 			children = (
 				778ED9781FA21FD400D799BE /* AppDelegate.swift */,
 				778ED97A1FA21FD400D799BE /* ViewController.swift */,
+				778ED98E1FA2235B00D799BE /* CreativityViewController.swift */,
+				778ED9901FA2236B00D799BE /* AbstractionViewController.swift */,
+				778ED9921FA2237800D799BE /* DataViewController.swift */,
+				778ED9941FA2238600D799BE /* AlgorithmsViewController.swift */,
+				778ED9981FA223BB00D799BE /* ProgrammingViewController.swift */,
+				778ED99A1FA223CE00D799BE /* InternetViewController.swift */,
+				778ED99C1FA223DB00D799BE /* ImpactViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -169,7 +190,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				778ED97B1FA21FD400D799BE /* ViewController.swift in Sources */,
+				778ED99D1FA223DB00D799BE /* ImpactViewController.swift in Sources */,
+				778ED9991FA223BB00D799BE /* ProgrammingViewController.swift in Sources */,
 				778ED9791FA21FD400D799BE /* AppDelegate.swift in Sources */,
+				778ED9931FA2237800D799BE /* DataViewController.swift in Sources */,
+				778ED98F1FA2235B00D799BE /* CreativityViewController.swift in Sources */,
+				778ED9951FA2238600D799BE /* AlgorithmsViewController.swift in Sources */,
+				778ED9911FA2236B00D799BE /* AbstractionViewController.swift in Sources */,
+				778ED99B1FA223CE00D799BE /* InternetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
