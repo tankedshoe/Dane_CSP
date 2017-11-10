@@ -34,10 +34,11 @@ class AlgorithmsViewController: UIViewController {
         let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
         let fullAttributedString = NSMutableAttributedString(string: algorithm, attributes: attributesDictionary)
         
-        for s in algorithmSteps
+        //For in loop giving the array a paragraph style when displayed.
+        for step in algorithmSteps
         {
             let bullet :String = "-"
-            let formattedStep :String = "\n\(bullet) \(s)"
+            let formattedStep :String = "\n\(bullet) \(step)"
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let paragraphStyle = createParagraphStyle()
             
@@ -50,6 +51,7 @@ class AlgorithmsViewController: UIViewController {
     
     private func createParagraphStyle() -> NSParagraphStyle
     {
+        //Giving the paragraph indent and style.
         let paragraphStyle: NSMutableParagraphStyle = NSMutableParagraphStyle()
         paragraphStyle.alignment = .left
         paragraphStyle.defaultTabInterval = 15

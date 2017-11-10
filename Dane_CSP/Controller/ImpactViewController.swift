@@ -10,6 +10,17 @@ import UIKit
 
 class ImpactViewController: UIViewController {
 
+    @IBOutlet weak var sketch: UIImageView!
+    @IBOutlet weak var personalConnection: UILabel!
+    
+    var text: String = "I think its unfair that women are treated unequally, so creating awareness for this global problem is something I very much want to do."
+    
+    private func setStuff() -> Void
+    {
+        sketch.image = UIImage(named: "sketchImage")
+        personalConnection.text = text
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
