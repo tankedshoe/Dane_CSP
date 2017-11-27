@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		776913381FC329CD008506A2 /* Junkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776913371FC329CD008506A2 /* Junkable.swift */; };
+		7769133A1FC32D51008506A2 /* junkDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776913391FC32D51008506A2 /* junkDebug.swift */; };
 		778ED9791FA21FD400D799BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9781FA21FD400D799BE /* AppDelegate.swift */; };
 		778ED97B1FA21FD400D799BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED97A1FA21FD400D799BE /* ViewController.swift */; };
 		778ED97E1FA21FD400D799BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778ED97C1FA21FD400D799BE /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		776913371FC329CD008506A2 /* Junkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Junkable.swift; sourceTree = "<group>"; };
+		776913391FC32D51008506A2 /* junkDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junkDebug.swift; sourceTree = "<group>"; };
 		778ED9751FA21FD400D799BE /* Dane_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dane_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778ED9781FA21FD400D799BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		778ED97A1FA21FD400D799BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 		778ED98B1FA2202A00D799BE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				776913371FC329CD008506A2 /* Junkable.swift */,
+				776913391FC32D51008506A2 /* junkDebug.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +204,8 @@
 				778ED9951FA2238600D799BE /* AlgorithmsViewController.swift in Sources */,
 				778ED9911FA2236B00D799BE /* AbstractionViewController.swift in Sources */,
 				778ED99B1FA223CE00D799BE /* InternetViewController.swift in Sources */,
+				7769133A1FC32D51008506A2 /* junkDebug.swift in Sources */,
+				776913381FC329CD008506A2 /* Junkable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

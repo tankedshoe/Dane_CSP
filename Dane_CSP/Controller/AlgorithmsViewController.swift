@@ -13,6 +13,7 @@ class AlgorithmsViewController: UIViewController {
     // MARK: Data members
     @IBOutlet weak var algorithmText: UILabel!
     
+    
     private func setupAlgorithm() -> Void
     {
         var algorithmSteps : [String] = []

@@ -1,29 +1,17 @@
 //
-//  ImpactViewController.swift
+//  Squishable.swift
 //  Dane_CSP
 //
-//  Created by Heaps, Dane on 10/26/17.
+//  Created by Heaps, Dane on 11/20/17.
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
 import UIKit
 
-class ImpactViewController: UIViewController {
+class Squishable: UIViewController {
 
-    @IBOutlet weak var sketch: UIImageView!
-    @IBOutlet weak var personalConnection: UILabel!
-    
-    var text: String = "I think its unfair that women are treated unequally, so creating awareness for this global problem is something I very much want to do."
-    
-    private func setStuff() -> Void
-    {
-        sketch.image = UIImage(named: "sketchImage")
-        personalConnection.text = text
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        setStuff()
 
         // Do any additional setup after loading the view.
     }
