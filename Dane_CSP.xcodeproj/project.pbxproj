@@ -19,8 +19,9 @@
 		778ED9931FA2237800D799BE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9921FA2237800D799BE /* DataViewController.swift */; };
 		778ED9951FA2238600D799BE /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9941FA2238600D799BE /* AlgorithmsViewController.swift */; };
 		778ED9991FA223BB00D799BE /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9981FA223BB00D799BE /* ProgrammingViewController.swift */; };
-		778ED99B1FA223CE00D799BE /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED99A1FA223CE00D799BE /* InternetViewController.swift */; };
 		778ED99D1FA223DB00D799BE /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED99C1FA223DB00D799BE /* ImpactViewController.swift */; };
+		77D255261FCEFFE600BE6D0B /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D255251FCEFFE600BE6D0B /* InternetDetailViewController.swift */; };
+		77D255281FCF002A00BE6D0B /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D255271FCF002A00BE6D0B /* InternetMasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +39,9 @@
 		778ED9921FA2237800D799BE /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		778ED9941FA2238600D799BE /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		778ED9981FA223BB00D799BE /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
-		778ED99A1FA223CE00D799BE /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		778ED99C1FA223DB00D799BE /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
+		77D255251FCEFFE600BE6D0B /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		77D255271FCF002A00BE6D0B /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +92,9 @@
 				778ED9921FA2237800D799BE /* DataViewController.swift */,
 				778ED9941FA2238600D799BE /* AlgorithmsViewController.swift */,
 				778ED9981FA223BB00D799BE /* ProgrammingViewController.swift */,
-				778ED99A1FA223CE00D799BE /* InternetViewController.swift */,
 				778ED99C1FA223DB00D799BE /* ImpactViewController.swift */,
+				77D255251FCEFFE600BE6D0B /* InternetDetailViewController.swift */,
+				77D255271FCF002A00BE6D0B /* InternetMasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				778ED97B1FA21FD400D799BE /* ViewController.swift in Sources */,
+				77D255281FCF002A00BE6D0B /* InternetMasterViewController.swift in Sources */,
+				77D255261FCEFFE600BE6D0B /* InternetDetailViewController.swift in Sources */,
 				778ED99D1FA223DB00D799BE /* ImpactViewController.swift in Sources */,
 				778ED9991FA223BB00D799BE /* ProgrammingViewController.swift in Sources */,
 				778ED9791FA21FD400D799BE /* AppDelegate.swift in Sources */,
@@ -203,7 +208,6 @@
 				778ED98F1FA2235B00D799BE /* CreativityViewController.swift in Sources */,
 				778ED9951FA2238600D799BE /* AlgorithmsViewController.swift in Sources */,
 				778ED9911FA2236B00D799BE /* AbstractionViewController.swift in Sources */,
-				778ED99B1FA223CE00D799BE /* InternetViewController.swift in Sources */,
 				7769133A1FC32D51008506A2 /* junkDebug.swift in Sources */,
 				776913381FC329CD008506A2 /* Junkable.swift in Sources */,
 			);
