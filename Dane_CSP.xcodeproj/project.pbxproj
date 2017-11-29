@@ -22,6 +22,7 @@
 		778ED99D1FA223DB00D799BE /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED99C1FA223DB00D799BE /* ImpactViewController.swift */; };
 		77D255261FCEFFE600BE6D0B /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D255251FCEFFE600BE6D0B /* InternetDetailViewController.swift */; };
 		77D255281FCF002A00BE6D0B /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D255271FCF002A00BE6D0B /* InternetMasterViewController.swift */; };
+		77D2552B1FCF0B2300BE6D0B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D2552A1FCF0B2300BE6D0B /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		778ED99C1FA223DB00D799BE /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
 		77D255251FCEFFE600BE6D0B /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		77D255271FCF002A00BE6D0B /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		77D2552A1FCF0B2300BE6D0B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D2552B1FCF0B2300BE6D0B /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +63,7 @@
 			children = (
 				778ED9771FA21FD400D799BE /* Dane_CSP */,
 				778ED9761FA21FD400D799BE /* Products */,
+				77D255291FCF0B2200BE6D0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +128,14 @@
 				778ED9841FA21FD400D799BE /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		77D255291FCF0B2200BE6D0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77D2552A1FCF0B2300BE6D0B /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

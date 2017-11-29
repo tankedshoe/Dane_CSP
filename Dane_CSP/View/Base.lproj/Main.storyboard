@@ -370,6 +370,10 @@ Put your income in - tells you if you’re making less or more than normal.
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="CDj-Dj-ewQ"/>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="qOb-fY-Com" id="tmu-Jt-sfr"/>
+                        <outlet property="webView" destination="qmP-Mv-oFy" id="Kan-TJ-6Qz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7r3-dM-wee" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -384,7 +388,7 @@ Put your income in - tells you if you’re making less or more than normal.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="CRG-TF-K7x">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="CRG-TF-K7x">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CRG-TF-K7x" id="ToY-YO-i4h">

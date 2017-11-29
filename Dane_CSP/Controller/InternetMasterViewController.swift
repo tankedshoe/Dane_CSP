@@ -33,7 +33,7 @@ class InternetMasterViewController : UITableViewController
         super.viewDidLoad()
         setup()
 
-        self.clearSelectionOnViewWillAppear = false
+        self.clearsSelectionOnViewWillAppear = false
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,7 +43,7 @@ class InternetMasterViewController : UITableViewController
     
     //MARK: - Table view data source
     
-    override public func numberOfSelections(in tableView: UITableView) -> Int
+    override public func numberOfSections(in tableView: UITableView) -> Int
     {
         // #warning Incomplete implementation, return the number of sections
         return 1
