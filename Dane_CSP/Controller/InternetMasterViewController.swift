@@ -18,7 +18,7 @@ class InternetMasterViewController : UITableViewController
         "CTEC",
         "Canyons",
         "Twitter",
-        "Start Guide",
+        "Swift Language Guide"
         ]
     }()
     
@@ -33,7 +33,7 @@ class InternetMasterViewController : UITableViewController
             "http://www.canyonsdistrict.org/",
             "https://ctec.canyonsdistrict.org/",
             "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309",
-            "https://twitter.com/?lang=en",
+            "https://twitter.com/?lang=en"
         ]
         
         if let splitView = splitViewController
