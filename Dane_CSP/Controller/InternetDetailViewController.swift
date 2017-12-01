@@ -15,10 +15,56 @@ class InternetDetailViewController : UIViewController
     @IBOutlet weak var textView: UILabel!
     @IBOutlet weak var webView: WKWebView!
     
+    var detailAddress : String?
+    {
+        // MARK: Update the detail view when a value is changed.
+        didSet
+        {
+            configureDetailView()
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureDetailView()
 
         // Do any additional setup after loading the view.
+    }
+    
+    private func configureDetailView() -> Void
+    {
+        if detailAddress != nil
+        {
+            if let currentWebView = webView
+            {
+                let currentURL = URL(string: detailAddress!)
+                let currentWebRequest = URLRequest(url: currentURL!)
+                currentWebView.load(currentWebRequest)
+            }
+        }
+        else
+        {
+            if let currentWebView = webView
+            {
+                let currentURL = URL(string: "https://www.cnn.com")
+                currentWebView.load(URLRequest(url:currentURL!))
+            }
+        }
+        
+        if detailText != nil
+        {
+            if let currentText = textView
+            {
+                currentText.text = detailText
+            }
+        }
+        else
+        {
+            if let currentText = textView
+            {
+                currentText.text = "Dane's CSP app internet screen"
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
