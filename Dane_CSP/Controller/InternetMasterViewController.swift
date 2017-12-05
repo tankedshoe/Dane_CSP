@@ -30,7 +30,7 @@ class InternetMasterViewController : UITableViewController
     {
         addresses = [
             "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
-            "http://www.canyonsdistrict.org/",
+            "https://www.canyonsdistrict.org/",
             "https://ctec.canyonsdistrict.org/",
             "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309",
             "https://twitter.com/?lang=en"
@@ -70,9 +70,9 @@ class InternetMasterViewController : UITableViewController
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueResuableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let currentText = internetTopics[indexPath.row]
-        cell.textLabel.text = currentText
+        cell.textLabel!.text = currentText
         
         return cell
     }

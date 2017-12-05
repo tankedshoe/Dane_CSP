@@ -395,6 +395,9 @@ Put your income in - tells you if you’re making less or more than normal.
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="b4P-P3-NVB" kind="showDetail" id="5Le-Cu-Rna"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -447,4 +450,7 @@ Put your income in - tells you if you’re making less or more than normal.
         <image name="swiftSample" width="1248" height="1244"/>
         <image name="woman" width="318" height="159"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="5Le-Cu-Rna"/>
+    </inferredMetricsTieBreakers>
 </document>

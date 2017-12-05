@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7752B02F1FD6EFCC008EAFB8 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752B02E1FD6EFCC008EAFB8 /* DrawingView.swift */; };
 		776913381FC329CD008506A2 /* Junkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776913371FC329CD008506A2 /* Junkable.swift */; };
 		7769133A1FC32D51008506A2 /* junkDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776913391FC32D51008506A2 /* junkDebug.swift */; };
 		778ED9791FA21FD400D799BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9781FA21FD400D799BE /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7752B02E1FD6EFCC008EAFB8 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		776913371FC329CD008506A2 /* Junkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Junkable.swift; sourceTree = "<group>"; };
 		776913391FC32D51008506A2 /* junkDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junkDebug.swift; sourceTree = "<group>"; };
 		778ED9751FA21FD400D799BE /* Dane_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dane_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 			children = (
 				778ED97C1FA21FD400D799BE /* Main.storyboard */,
 				778ED9811FA21FD400D799BE /* LaunchScreen.storyboard */,
+				7752B02E1FD6EFCC008EAFB8 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				77D255261FCEFFE600BE6D0B /* InternetDetailViewController.swift in Sources */,
 				778ED99D1FA223DB00D799BE /* ImpactViewController.swift in Sources */,
 				778ED9991FA223BB00D799BE /* ProgrammingViewController.swift in Sources */,
+				7752B02F1FD6EFCC008EAFB8 /* DrawingView.swift in Sources */,
 				778ED9791FA21FD400D799BE /* AppDelegate.swift in Sources */,
 				778ED9931FA2237800D799BE /* DataViewController.swift in Sources */,
 				778ED98F1FA2235B00D799BE /* CreativityViewController.swift in Sources */,
