@@ -18,7 +18,8 @@ class CreativityViewController: UICollectionViewController, UICollectionViewDele
     {
         return [
             UIImage(named: "cute"),
-            UIImage(named: "myArt")
+            UIImage(named: "myArt"),
+            UIImage(named: "haiku")
         ]
     }()
     
@@ -53,10 +54,34 @@ class CreativityViewController: UICollectionViewController, UICollectionViewDele
         }
     }
     
+    //MARK: Lifecycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    //MARK:- UICollectionViewMethods
+    
+    override public func numberOfSections(in collectionView: UICollectionView) -> Int
+    {
+        return 1
+    }
+    
+    override public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+    {
+        return artSelection.count
+    }
+    
+    override public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
+    {
+        let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
+        
+        artCell.background = .blue
+        artCell.imageView.image = artSelection[indexPath.row]
+        artCell.imageName.text = "MY ART"
+        
+        return artCell
     }
 
     override func didReceiveMemoryWarning() {
