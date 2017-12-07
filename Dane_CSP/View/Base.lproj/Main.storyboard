@@ -206,23 +206,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaQ-Ku-dvM">
-                                <rect key="frame" x="172" y="487" width="110" height="59"/>
+                                <rect key="frame" x="37" y="525" width="110" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Algorithm Page"/>
                                 <connections>
                                     <segue destination="X41-ka-Fn3" kind="show" id="THv-Zq-DNz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auD-F9-3YX">
-                                <rect key="frame" x="183" y="554" width="143" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Impact Page"/>
-                                <connections>
-                                    <segue destination="mgE-3X-Jfa" kind="show" id="XQD-Sg-KCf"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWn-fE-mo9">
-                                <rect key="frame" x="89" y="421" width="152" height="30"/>
+                                <rect key="frame" x="16" y="501" width="152" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Abstraction Page"/>
                                 <connections>
@@ -230,11 +222,24 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wic-0Z-6PU">
-                                <rect key="frame" x="164" y="332" width="106" height="30"/>
+                                <rect key="frame" x="16" y="459" width="219" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Split View"/>
+                                <state key="normal" title="Internet Page"/>
                                 <connections>
                                     <segue destination="ZGy-Fp-3Do" kind="show" id="0dL-39-fMO"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vjX-P5-uyc" customClass="DrawingView" customModule="Dane_CSP" customModuleProvider="target">
+                                <rect key="frame" x="67" y="0.0" width="240" height="292"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auD-F9-3YX">
+                                <rect key="frame" x="16" y="574" width="143" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Impact Page"/>
+                                <connections>
+                                    <segue destination="mgE-3X-Jfa" kind="show" id="XQD-Sg-KCf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -244,7 +249,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1460" y="-1836"/>
+            <point key="canvasLocation" x="-1460" y="-1836.4317841079462"/>
         </scene>
         <!--Algorithms View Controller-->
         <scene sceneID="JbX-ya-HdU">

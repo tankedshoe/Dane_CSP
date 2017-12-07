@@ -10,16 +10,11 @@ import UIKit
 
 class DrawingView: UIView
 {
-
-    
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
     override func draw(_ rect: CGRect)
     {
         drawStickFigure().stroke()
         drawTurtle()
         drawHappyTree()
-        // Drawing code
     }
     
     private func drawStickFigure() -> UIBezierPath
@@ -48,12 +43,44 @@ class DrawingView: UIView
     
     public func drawHappyTree() -> Void
     {
+        let slothBabe = UIBezierPath()
+        
+        slothBabe.move(to: CGPoint(x: 80, y: 50))
+        slothBabe.addLine(to: CGPoint(x: 120, y: 150))
+        slothBabe.addLine(to: CGPoint(x: 120, y: 150))
+        slothBabe.close()
+        UIColor(patternImage: UIImage(named: "cute")!).setFill()
+        UIColor.brown.setStroke()
+        slothBabe.lineWidth = 2.0
+        slothBabe.fill()
+        slothBabe.stroke()
+        
+        let happyTree = UIBezierPath()
+        
+        UIColor.green.setFill()
+        happyTree.move(to: CGPoint(x: 110, y: 150))
+        happyTree.addLine(to: CGPoint(x: 150, y: 200))
+        happyTree.addLine(to: CGPoint(x: 10, y: 200))
+        happyTree.addLine(to: CGPoint(x: 50, y: 150))
+        happyTree.close()
+        happyTree.stroke()
+        happyTree.fill()
+        happyTree.move(to: CGPoint(x: 80, y: 200))
+        happyTree.addLine(to: CGPoint(x: 80, y: 250))
+        happyTree.lineWidth = 6.0
+        happyTree.stroke()
     
     }
     
     public func drawTurtle() -> Void
     {
-        
+        let logo = UIBezierPath()
+        UIColor.white.setFill()
+        logo.move(to: CGPoint(x: 50, y: 250))
+        logo.addLine(to: CGPoint(x: 100, y: 300))
+        logo.addLine(to: CGPoint(x: 50, y: 350))
+        logo.close()
+        logo.fill()
     }
     
 
