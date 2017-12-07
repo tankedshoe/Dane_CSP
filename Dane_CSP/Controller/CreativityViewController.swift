@@ -19,7 +19,7 @@ class CreativityViewController: UICollectionViewController, UICollectionViewDele
         return [
             UIImage(named: "cute"),
             UIImage(named: "myArt"),
-            UIImage(named: "haiku")
+            UIImage(named: "Haiku")
         ]
     }()
     
@@ -77,7 +77,7 @@ class CreativityViewController: UICollectionViewController, UICollectionViewDele
     {
         let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
         
-        artCell.background = .blue
+        artCell.backgroundColor = .purple
         artCell.imageView.image = artSelection[indexPath.row]
         artCell.imageName.text = "MY ART"
         

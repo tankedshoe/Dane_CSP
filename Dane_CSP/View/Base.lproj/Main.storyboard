@@ -222,14 +222,6 @@
                                     <segue destination="aqc-Ph-DDL" kind="show" id="naU-Sx-2cW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wic-0Z-6PU">
-                                <rect key="frame" x="16" y="459" width="219" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Internet Page"/>
-                                <connections>
-                                    <segue destination="ZGy-Fp-3Do" kind="show" id="0dL-39-fMO"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vjX-P5-uyc" customClass="DrawingView" customModule="Dane_CSP" customModuleProvider="target">
                                 <rect key="frame" x="67" y="0.0" width="240" height="292"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -241,6 +233,22 @@
                                 <state key="normal" title="Impact Page"/>
                                 <connections>
                                     <segue destination="mgE-3X-Jfa" kind="show" id="XQD-Sg-KCf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPp-FG-KKc">
+                                <rect key="frame" x="26" y="421" width="122" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Creativity Page"/>
+                                <connections>
+                                    <segue destination="RMR-MY-y4K" kind="show" id="TA3-Xi-K0Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wic-0Z-6PU">
+                                <rect key="frame" x="-8" y="459" width="176" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Internet Page"/>
+                                <connections>
+                                    <segue destination="ZGy-Fp-3Do" kind="show" id="0dL-39-fMO"/>
                                 </connections>
                             </button>
                         </subviews>
