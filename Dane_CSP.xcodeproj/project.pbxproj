@@ -21,6 +21,7 @@
 		778ED9951FA2238600D799BE /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9941FA2238600D799BE /* AlgorithmsViewController.swift */; };
 		778ED9991FA223BB00D799BE /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9981FA223BB00D799BE /* ProgrammingViewController.swift */; };
 		778ED99D1FA223DB00D799BE /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED99C1FA223DB00D799BE /* ImpactViewController.swift */; };
+		77D0FDA81FD99C6C0030F9BD /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0FDA71FD99C6C0030F9BD /* ArtCell.swift */; };
 		77D255261FCEFFE600BE6D0B /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D255251FCEFFE600BE6D0B /* InternetDetailViewController.swift */; };
 		77D255281FCF002A00BE6D0B /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D255271FCF002A00BE6D0B /* InternetMasterViewController.swift */; };
 		77D2552B1FCF0B2300BE6D0B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D2552A1FCF0B2300BE6D0B /* WebKit.framework */; };
@@ -43,6 +44,7 @@
 		778ED9941FA2238600D799BE /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		778ED9981FA223BB00D799BE /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		778ED99C1FA223DB00D799BE /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
+		77D0FDA71FD99C6C0030F9BD /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		77D255251FCEFFE600BE6D0B /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		77D255271FCF002A00BE6D0B /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		77D2552A1FCF0B2300BE6D0B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -101,6 +103,7 @@
 				778ED99C1FA223DB00D799BE /* ImpactViewController.swift */,
 				77D255251FCEFFE600BE6D0B /* InternetDetailViewController.swift */,
 				77D255271FCF002A00BE6D0B /* InternetMasterViewController.swift */,
+				77D0FDA71FD99C6C0030F9BD /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				778ED97B1FA21FD400D799BE /* ViewController.swift in Sources */,
+				77D0FDA81FD99C6C0030F9BD /* ArtCell.swift in Sources */,
 				77D255281FCF002A00BE6D0B /* InternetMasterViewController.swift in Sources */,
 				77D255261FCEFFE600BE6D0B /* InternetDetailViewController.swift in Sources */,
 				778ED99D1FA223DB00D799BE /* ImpactViewController.swift in Sources */,

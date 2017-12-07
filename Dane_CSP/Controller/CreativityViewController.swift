@@ -115,6 +115,7 @@ class CreativityViewController: UICollectionViewController, UICollectionViewDele
         return sectionInsets.left
     }
     
+    //What to do when clicking on things.
     override public func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool
     {
         if largePhotoIndexPath == indexPath
