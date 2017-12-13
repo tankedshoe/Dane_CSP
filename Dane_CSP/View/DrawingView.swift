@@ -47,7 +47,7 @@ class DrawingView: UIView
         
         slothBabe.move(to: CGPoint(x: 80, y: 50))
         slothBabe.addLine(to: CGPoint(x: 120, y: 150))
-        slothBabe.addLine(to: CGPoint(x: 120, y: 150))
+        slothBabe.addLine(to: CGPoint(x: 40, y: 150))
         slothBabe.close()
         UIColor(patternImage: UIImage(named: "cute")!).setFill()
         UIColor.brown.setStroke()
@@ -81,6 +81,16 @@ class DrawingView: UIView
         logo.addLine(to: CGPoint(x: 50, y: 350))
         logo.close()
         logo.fill()
+    }
+    
+    public func drawWithFriends()
+    {
+        //.move(to: CGPoint(x: int, y: int)) - Moves the pen to a sepcific point.
+        //.addLine(to: CGPoint(x: int, y: int)) - Creates a line from where the pen is to a specified point.
+        //.close() -
+        //.stroke() - Makes your lines visible.
+        //.fill() - fills in a shape
+        
     }
     
 
