@@ -272,7 +272,7 @@
         <scene sceneID="rWP-wc-TSU">
             <objects>
                 <viewController id="3yL-tD-HAC" customClass="ProgrammingViewController" customModule="Dane_CSP" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="A6T-5x-3ti">
+                    <view key="view" contentMode="scaleToFill" id="A6T-5x-3ti" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
