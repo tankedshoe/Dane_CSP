@@ -26,6 +26,7 @@
 		776A6C9A1FE188F400BEB5CC /* laser sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 776A6C941FE188B700BEB5CC /* laser sound.mp3 */; };
 		776A6C9B1FE188F400BEB5CC /* extra sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 776A6C8B1FE1887F00BEB5CC /* extra sound.mp3 */; };
 		776A6C9C1FE188F400BEB5CC /* powerup sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 776A6C8C1FE1889200BEB5CC /* powerup sound.mp3 */; };
+		7785A2271FFD248C00DAD4DD /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7785A2261FFD248C00DAD4DD /* DeathScene.swift */; };
 		778ED9791FA21FD400D799BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED9781FA21FD400D799BE /* AppDelegate.swift */; };
 		778ED97B1FA21FD400D799BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778ED97A1FA21FD400D799BE /* ViewController.swift */; };
 		778ED97E1FA21FD400D799BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778ED97C1FA21FD400D799BE /* Main.storyboard */; };
@@ -63,6 +64,7 @@
 		776A6C8E1FE1889D00BEB5CC /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "boss sound.mp3"; sourceTree = "<group>"; };
 		776A6C911FE188A600BEB5CC /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "invader sound.mp3"; sourceTree = "<group>"; };
 		776A6C941FE188B700BEB5CC /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laser sound.mp3"; sourceTree = "<group>"; };
+		7785A2261FFD248C00DAD4DD /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeathScene.swift; path = Dane_CSP/Controller/GameController/DeathScene.swift; sourceTree = SOURCE_ROOT; };
 		778ED9751FA21FD400D799BE /* Dane_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dane_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778ED9781FA21FD400D799BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		778ED97A1FA21FD400D799BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				776A6C841FE181E400BEB5CC /* GameScene.swift */,
 				776A6C851FE181E500BEB5CC /* LevelCompleteScene.swift */,
 				776A6C861FE181E500BEB5CC /* StartScene.swift */,
+				7785A2261FFD248C00DAD4DD /* DeathScene.swift */,
 			);
 			name = GameController;
 			path = "New Group";
@@ -310,6 +313,7 @@
 				776A6C821FE1779200BEB5CC /* Squishable.swift in Sources */,
 				778ED9911FA2236B00D799BE /* AbstractionViewController.swift in Sources */,
 				7769133A1FC32D51008506A2 /* junkDebug.swift in Sources */,
+				7785A2271FFD248C00DAD4DD /* DeathScene.swift in Sources */,
 				776A6C881FE181E500BEB5CC /* LevelCompleteScene.swift in Sources */,
 				776913381FC329CD008506A2 /* Junkable.swift in Sources */,
 			);
