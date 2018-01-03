@@ -281,7 +281,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xep-2z-XmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3242" y="-748"/>
+            <point key="canvasLocation" x="-1300" y="-1041"/>
         </scene>
         <!--Algorithms View Controller-->
         <scene sceneID="JbX-ya-HdU">
@@ -318,7 +318,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WSY-3W-i8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1854" y="-187"/>
+            <point key="canvasLocation" x="-3490" y="-1041"/>
         </scene>
         <!--Impact View Controller-->
         <scene sceneID="IUp-CG-hp9">
@@ -377,7 +377,7 @@ Put your income in - tells you if you’re making less or more than normal.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9Y-Zl-0j1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-993" y="-188"/>
+            <point key="canvasLocation" x="-2660" y="-1041"/>
         </scene>
         <!--Creativity View Controller-->
         <scene sceneID="brK-6b-h8A">
@@ -436,7 +436,7 @@ Put your income in - tells you if you’re making less or more than normal.
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KhM-S9-7VJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="64.799999999999997" y="-187.55622188905548"/>
+            <point key="canvasLocation" x="1548" y="-1836"/>
         </scene>
         <!--Internet Detail View Controller-->
         <scene sceneID="Qk8-HW-iI7">
@@ -505,7 +505,7 @@ Put your income in - tells you if you’re making less or more than normal.
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMx-Wr-BBS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3095.1999999999998" y="-86.806596701649184"/>
+            <point key="canvasLocation" x="2167" y="-158"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yDZ-d1-G3h">
@@ -521,7 +521,7 @@ Put your income in - tells you if you’re making less or more than normal.
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p7X-W8-oxO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2144.8000000000002" y="-86.806596701649184"/>
+            <point key="canvasLocation" x="1284" y="-157"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="UVX-5W-GnW">
@@ -534,7 +534,7 @@ Put your income in - tells you if you’re making less or more than normal.
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ySa-WY-Los" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1164" y="303.59820089955025"/>
+            <point key="canvasLocation" x="222" y="255"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7cL-Ez-rUi">
@@ -552,7 +552,7 @@ Put your income in - tells you if you’re making less or more than normal.
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUl-8m-9ML" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="834" y="-1306"/>
+            <point key="canvasLocation" x="492" y="-1837"/>
         </scene>
     </scenes>
     <resources>
