@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7752B02F1FD6EFCC008EAFB8 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752B02E1FD6EFCC008EAFB8 /* DrawingView.swift */; };
-		776913381FC329CD008506A2 /* Junkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776913371FC329CD008506A2 /* Junkable.swift */; };
-		7769133A1FC32D51008506A2 /* junkDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776913391FC32D51008506A2 /* junkDebug.swift */; };
 		776A6C751FE176D000BEB5CC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C741FE176D000BEB5CC /* Utilities.swift */; };
 		776A6C771FE1770700BEB5CC /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 776A6C761FE1770700BEB5CC /* StarField.sks */; };
 		776A6C7E1FE1779200BEB5CC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C781FE1779100BEB5CC /* Player.swift */; };
@@ -46,8 +44,6 @@
 
 /* Begin PBXFileReference section */
 		7752B02E1FD6EFCC008EAFB8 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
-		776913371FC329CD008506A2 /* Junkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Junkable.swift; sourceTree = "<group>"; };
-		776913391FC32D51008506A2 /* junkDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junkDebug.swift; sourceTree = "<group>"; };
 		776A6C741FE176D000BEB5CC /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		776A6C761FE1770700BEB5CC /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 		776A6C781FE1779100BEB5CC /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -177,8 +173,6 @@
 				776A6C7A1FE1779100BEB5CC /* PlayerLaser.swift */,
 				776A6C7B1FE1779100BEB5CC /* Projectile.swift */,
 				776A6C7C1FE1779100BEB5CC /* Squishable.swift */,
-				776913371FC329CD008506A2 /* Junkable.swift */,
-				776913391FC32D51008506A2 /* junkDebug.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -312,10 +306,8 @@
 				778ED9951FA2238600D799BE /* AlgorithmsViewController.swift in Sources */,
 				776A6C821FE1779200BEB5CC /* Squishable.swift in Sources */,
 				778ED9911FA2236B00D799BE /* AbstractionViewController.swift in Sources */,
-				7769133A1FC32D51008506A2 /* junkDebug.swift in Sources */,
 				7785A2271FFD248C00DAD4DD /* DeathScene.swift in Sources */,
 				776A6C881FE181E500BEB5CC /* LevelCompleteScene.swift in Sources */,
-				776913381FC329CD008506A2 /* Junkable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
