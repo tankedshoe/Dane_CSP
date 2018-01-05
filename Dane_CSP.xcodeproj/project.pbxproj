@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7752B02F1FD6EFCC008EAFB8 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752B02E1FD6EFCC008EAFB8 /* DrawingView.swift */; };
+		776A354D1FFFCD0A008B73B0 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A354C1FFFCD0A008B73B0 /* BucketItemCell.swift */; };
+		776A35501FFFCD5A008B73B0 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A354F1FFFCD5A008B73B0 /* BucketItemCell.swift */; };
+		776A35521FFFCE7A008B73B0 /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = 776A35511FFFCE7A008B73B0 /* bucket.csv */; };
 		776A6C751FE176D000BEB5CC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C741FE176D000BEB5CC /* Utilities.swift */; };
 		776A6C771FE1770700BEB5CC /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 776A6C761FE1770700BEB5CC /* StarField.sks */; };
 		776A6C7E1FE1779200BEB5CC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C781FE1779100BEB5CC /* Player.swift */; };
@@ -44,6 +47,9 @@
 
 /* Begin PBXFileReference section */
 		7752B02E1FD6EFCC008EAFB8 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		776A354C1FFFCD0A008B73B0 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		776A354F1FFFCD5A008B73B0 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		776A35511FFFCE7A008B73B0 /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
 		776A6C741FE176D000BEB5CC /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		776A6C761FE1770700BEB5CC /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 		776A6C781FE1779100BEB5CC /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -92,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		776A354E1FFFCD2E008B73B0 /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				778ED9921FA2237800D799BE /* DataViewController.swift */,
+				776A354C1FFFCD0A008B73B0 /* BucketItemCell.swift */,
+			);
+			path = DataView;
+			sourceTree = "<group>";
+		};
 		776A6C8A1FE1821B00BEB5CC /* GameController */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,13 +168,13 @@
 				778ED97A1FA21FD400D799BE /* ViewController.swift */,
 				778ED98E1FA2235B00D799BE /* CreativityViewController.swift */,
 				778ED9901FA2236B00D799BE /* AbstractionViewController.swift */,
-				778ED9921FA2237800D799BE /* DataViewController.swift */,
 				778ED9941FA2238600D799BE /* AlgorithmsViewController.swift */,
 				778ED9981FA223BB00D799BE /* ProgrammingViewController.swift */,
 				778ED99C1FA223DB00D799BE /* ImpactViewController.swift */,
 				77D255251FCEFFE600BE6D0B /* InternetDetailViewController.swift */,
 				77D255271FCF002A00BE6D0B /* InternetMasterViewController.swift */,
 				77D0FDA71FD99C6C0030F9BD /* ArtCell.swift */,
+				776A354E1FFFCD2E008B73B0 /* DataView */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +188,7 @@
 				776A6C7A1FE1779100BEB5CC /* PlayerLaser.swift */,
 				776A6C7B1FE1779100BEB5CC /* Projectile.swift */,
 				776A6C7C1FE1779100BEB5CC /* Squishable.swift */,
+				776A354F1FFFCD5A008B73B0 /* BucketItemCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +207,7 @@
 		778ED98D1FA2204C00D799BE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				776A35511FFFCE7A008B73B0 /* bucket.csv */,
 				776A6C971FE188D900BEB5CC /* Sounds */,
 				776A6C741FE176D000BEB5CC /* Utilities.swift */,
 				778ED97F1FA21FD400D799BE /* Assets.xcassets */,
@@ -268,6 +285,7 @@
 			files = (
 				776A6C771FE1770700BEB5CC /* StarField.sks in Resources */,
 				776A6C9C1FE188F400BEB5CC /* powerup sound.mp3 in Resources */,
+				776A35521FFFCE7A008B73B0 /* bucket.csv in Resources */,
 				778ED9831FA21FD400D799BE /* LaunchScreen.storyboard in Resources */,
 				776A6C9B1FE188F400BEB5CC /* extra sound.mp3 in Resources */,
 				778ED9801FA21FD400D799BE /* Assets.xcassets in Resources */,
@@ -291,12 +309,14 @@
 				77D255281FCF002A00BE6D0B /* InternetMasterViewController.swift in Sources */,
 				776A6C801FE1779200BEB5CC /* PlayerLaser.swift in Sources */,
 				776A6C751FE176D000BEB5CC /* Utilities.swift in Sources */,
+				776A35501FFFCD5A008B73B0 /* BucketItemCell.swift in Sources */,
 				776A6C7E1FE1779200BEB5CC /* Player.swift in Sources */,
 				776A6C891FE181E500BEB5CC /* StartScene.swift in Sources */,
 				776A6C831FE1779200BEB5CC /* InvaderLaser.swift in Sources */,
 				77D255261FCEFFE600BE6D0B /* InternetDetailViewController.swift in Sources */,
 				778ED99D1FA223DB00D799BE /* ImpactViewController.swift in Sources */,
 				776A6C811FE1779200BEB5CC /* Projectile.swift in Sources */,
+				776A354D1FFFCD0A008B73B0 /* BucketItemCell.swift in Sources */,
 				778ED9991FA223BB00D799BE /* ProgrammingViewController.swift in Sources */,
 				7752B02F1FD6EFCC008EAFB8 /* DrawingView.swift in Sources */,
 				778ED9791FA21FD400D799BE /* AppDelegate.swift in Sources */,
