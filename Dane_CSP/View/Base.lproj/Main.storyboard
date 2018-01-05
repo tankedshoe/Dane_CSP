@@ -436,7 +436,7 @@ Put your income in - tells you if you’re making less or more than normal.
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KhM-S9-7VJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1548" y="-1836"/>
+            <point key="canvasLocation" x="1625" y="-1837"/>
         </scene>
         <!--Internet Detail View Controller-->
         <scene sceneID="Qk8-HW-iI7">
@@ -478,7 +478,7 @@ Put your income in - tells you if you’re making less or more than normal.
         <!--Root View Controller-->
         <scene sceneID="P9g-ig-nqS">
             <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="eXH-u4-pvw" sceneMemberID="viewController">
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="eXH-u4-pvw" customClass="InternetMasterViewController" customModule="Dane_CSP" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="diE-ny-yr2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -487,12 +487,12 @@ Put your income in - tells you if you’re making less or more than normal.
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="CRG-TF-K7x">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CRG-TF-K7x" id="ToY-YO-i4h">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CRG-TF-K7x" id="ToY-YO-i4h" colorLabel="IBBuiltInLabel-Purple">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="b4P-P3-NVB" kind="showDetail" id="5Le-Cu-Rna"/>
+                                    <segue destination="b4P-P3-NVB" kind="showDetail" identifier="showDetail" id="5Le-Cu-Rna"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -565,6 +565,6 @@ Put your income in - tells you if you’re making less or more than normal.
         <image name="woman" width="318" height="159"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5Le-Cu-Rna"/>
+        <segue reference="xwK-pM-LYr"/>
     </inferredMetricsTieBreakers>
 </document>
