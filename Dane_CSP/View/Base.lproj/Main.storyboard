@@ -599,6 +599,11 @@ Put your income in - tells you if you’re making less or more than normal.
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="WEX-NS-O8N" id="8mH-fp-WOA"/>
+                                    <outlet property="bucketItemSymbol" destination="4Bt-Zs-ola" id="Lsm-6g-N9J"/>
+                                    <outlet property="bucketItemText" destination="s3X-Rg-B3Q" id="24C-e3-NVq"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
