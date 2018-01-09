@@ -16,7 +16,6 @@
 		776A6C7F1FE1779200BEB5CC /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C791FE1779100BEB5CC /* Invader.swift */; };
 		776A6C801FE1779200BEB5CC /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C7A1FE1779100BEB5CC /* PlayerLaser.swift */; };
 		776A6C811FE1779200BEB5CC /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C7B1FE1779100BEB5CC /* Projectile.swift */; };
-		776A6C821FE1779200BEB5CC /* Squishable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C7C1FE1779100BEB5CC /* Squishable.swift */; };
 		776A6C831FE1779200BEB5CC /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C7D1FE1779100BEB5CC /* InvaderLaser.swift */; };
 		776A6C871FE181E500BEB5CC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C841FE181E400BEB5CC /* GameScene.swift */; };
 		776A6C881FE181E500BEB5CC /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A6C851FE181E500BEB5CC /* LevelCompleteScene.swift */; };
@@ -55,7 +54,6 @@
 		776A6C791FE1779100BEB5CC /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
 		776A6C7A1FE1779100BEB5CC /* PlayerLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
 		776A6C7B1FE1779100BEB5CC /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
-		776A6C7C1FE1779100BEB5CC /* Squishable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Squishable.swift; sourceTree = "<group>"; };
 		776A6C7D1FE1779100BEB5CC /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
 		776A6C841FE181E400BEB5CC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		776A6C851FE181E500BEB5CC /* LevelCompleteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 				776A6C781FE1779100BEB5CC /* Player.swift */,
 				776A6C7A1FE1779100BEB5CC /* PlayerLaser.swift */,
 				776A6C7B1FE1779100BEB5CC /* Projectile.swift */,
-				776A6C7C1FE1779100BEB5CC /* Squishable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,7 +321,6 @@
 				778ED98F1FA2235B00D799BE /* CreativityViewController.swift in Sources */,
 				776A6C871FE181E500BEB5CC /* GameScene.swift in Sources */,
 				778ED9951FA2238600D799BE /* AlgorithmsViewController.swift in Sources */,
-				776A6C821FE1779200BEB5CC /* Squishable.swift in Sources */,
 				778ED9911FA2236B00D799BE /* AbstractionViewController.swift in Sources */,
 				7785A2271FFD248C00DAD4DD /* DeathScene.swift in Sources */,
 				776A6C881FE181E500BEB5CC /* LevelCompleteScene.swift in Sources */,
