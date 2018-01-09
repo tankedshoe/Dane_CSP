@@ -6,21 +6,11 @@
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 class DataViewController: UITableViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     lazy var bucketList : [BucketItem] =
         {
             return loadBucketListFromFile()
@@ -37,7 +27,7 @@ class DataViewController: UITableViewController {
                 let bucketLines = input.components(separatedBy: "\n")
                 for line in bucketLines
                 {
-                    let item = line.components(separatedBy: ".")
+                    let item = line.components(separatedBy: ",")
                     items.append(BucketItem(contents: item[0],author: item[1]))
                 }
             }

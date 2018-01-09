@@ -53,13 +53,4 @@ class BucketItemCell: UITableViewCell
         bucketItemSymbol.text = randomEmoji()
     }
     
-    public override func awakeFromNib()
-    {
-        super.awakeFromNib()
-    }
-    
-    public override func setSelected(_ selected: Bool, animated: Bool)
-    {
-        super.setSelected(selected, animated: animated)
-    }
 }
